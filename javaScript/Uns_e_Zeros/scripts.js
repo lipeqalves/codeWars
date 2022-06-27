@@ -1,6 +1,6 @@
-/*function bin2dec(arr){
+function bin2dec(arr){
     //return bin.join('');
-    return parseInt(arr.join(''),2);
+    return parseInt(arr.join(''),10);
     };
 
 function bin2dec2(num){
@@ -9,6 +9,7 @@ function bin2dec2(num){
     };
     console.log(bin2dec([0,0,0,1]));
     console.log(bin2dec([0,0,1,0]));
+   
     console.log(bin2dec2(1));
     console.log(bin2dec2(2));
 
